@@ -24,7 +24,7 @@ def print_it(nr_lines):
 
 if __name__ == '__main__':
     print('Am inceput programul' + "\n")
-    paths = ["/home/student/DanielPython/Laborator9/Aplicatie2/Folder2/FisierText1", "/home/student/AplicatiiPy/Laborator9/Aplicatie2/Folder1/fisiertext1.txt", "/home/student/AplicatiiPy/Laborator9/Aplicatie2/Folder1/fisierTextulet.txt"]
+    paths = ["/home/student/AplicatiiPy/Laborator9/Aplicatie2/Folder2/fisiertext0", "/home/student/AplicatiiPy/Laborator9/Aplicatie2/Folder1/fisiertext1.txt", "/home/student/AplicatiiPy/Laborator9/Aplicatie2/Folder1/fisiertext2.txt"]
     pipeline = print_it(number_of_lines(path_filter(paths)))
     for path in pipeline:
         print(path + "\n")
