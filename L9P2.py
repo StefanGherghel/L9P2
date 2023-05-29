@@ -1,7 +1,6 @@
 import os.path
 
 
-
 def path_filter(paths):
     for path in paths:
         file_name, file_extension = os.path.splitext(path)
